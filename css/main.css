@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+}
+
+html{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner-img {
+  padding-top: 56.25%;
+  background: #ccc url("http://placehold.it/1920x1080/556B2F") no-repeat center center;
+  background-size: contain;
+}
+
+.intro-wrap {
+  background-color: #333;
+  width: 100%;
+}
+
+.intro {
+  margin: 0 auto;
+  max-width: 25em;
+  color: #fff;
+}
+
+.banner-simple {
+  background: #cd853f url("http://placehold.it/1920x400/cd853f") no-repeat center center;
+  background-position: cover;
+}
+
+.banner-simple p {
+  margin: 0 auto;
+  max-width: 25em;
+  text-align: center;
+}
+
+.nav {
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+ol{
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.footer {
+  text-align: center;
+}
+
+.reverse{
+  color: white;
+}
+
+h1{
+margin: 0;
+}
+
+.list-bullets{
+  list-style-type: circle;
+  text-align: left;
+}
+
+.img{
+  width: 100%;
+}
+
+.price-1{
+  background-color: grey;
+}
+
+.price-2{
+  background-color: blue;
+}
+
+.price-3{
+  background-color: red;
+}
+
+p{
+  margin:0;
+}
+
+.logo{
+  padding-left: 1em;
+}
+
+h4{
+  text-align: center;
+}
