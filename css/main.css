@@ -6,15 +6,23 @@ html{
   font-family: 'Quicksand', sans-serif;
 }
 
+.colour{
+  background-color: #f3d5bd;
+  padding-bottom: 0.5em;
+}
+
 .banner {
   position: relative;
   text-align: center;
 }
 
+.icons{
+  padding: 2em;
+}
 .banner-img {
   padding-top: 56.25%;
-  background: #ccc url("http://placehold.it/1920x1080/556B2F") no-repeat center center;
-  background-size: contain;
+  background: url("../images/rings.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 .intro-wrap {
@@ -71,6 +79,10 @@ h1{
 margin: 0;
 }
 
+h2{
+  padding-top: 0.5em;
+}
+
 .list-bullets{
   list-style-type: circle;
   text-align: left;
@@ -81,15 +93,15 @@ margin: 0;
 }
 
 .price-1{
-  background-color: grey;
+  background-color: #e5f7da;
 }
 
 .price-2{
-  background-color: blue;
+  background-color: #b7cea7;
 }
 
 .price-3{
-  background-color: red;
+  background-color: #a1b78f;
 }
 
 p{
@@ -102,4 +114,8 @@ p{
 
 h4{
   text-align: center;
+}
+
+footer{
+  background-color: #f3d5bd;
 }
