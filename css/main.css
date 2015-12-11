@@ -20,6 +20,11 @@ p{
   text-align: center;
   padding: 1em;
 }
+
+a{
+  text-align: center;
+}
+
 .banner-img {
   padding-top: 56.25%;
   background: url("../images/rings.jpg") no-repeat center center;
