@@ -22,13 +22,9 @@ p{
   height: 30px;
 }
 
-a{
-  position:absolute;
-}
 
 .button {
  display: block;
- height: 50px;
  width: 150px;
  background: #9db770;
  text-align: center;
