@@ -25,14 +25,14 @@
   </div>
 
   </div>
-  
-<h2> Signup </h2>
+
+<h2 class="form"> Signup </h2>
 </header>
 
 
 <body>
 </html>
-
+<div class="form">
 <form action="https://formspree.io/barb0181@algonquinlive.com">
 
   <div>
@@ -49,11 +49,66 @@
     <input id="email" type="email" name="email" required placeholder="you@yours.com" method="post">
   </div>
 
+  <div>
+      <label for="mailing-adress">Mailing/Billing Adress</label>
+      <input id="mailing-adress" required name="mailing-adress">
+    </div>
+
+
+        <div>
+          <h2>Payment Method</h2>
+        </div>
+
+        <div>
+          <label for="subject">Choose Your Plan</label>
+          <select id="subject" name="_subject">
+            <option>Pick your Plan</option>
+            <option>The Thrifty Bride</option>
+            <option>The Standard</option>
+            <option>The Big Spender</option>
+          </select>
+        </div>
+
+      <fieldset>
+
+      <legend>Please Choose Your Payment Method</legend>
+      <input id="visa" type="radio" name="payment" value="visa">
+      <label for="visa">Visa</label>
+
+      <input id="mastercard" type="radio" name="payment" value="mastercard">
+      <label for="mastercard">Mastercard</label>
+
+      <input id="pay-pal" type="radio" name="feels" value="pay-pal">
+      <label for="pay-pal">Pay-Pal</label>
+
+      <input id="interact" type="radio" name="feels" value="interact">
+      <label for="interact">Interact/Direct Banking</label>
+
+      <div class="pad-top-double gutter">
+        <label for="card-number">Card Number</label>
+        <input id="card-number" required name="card-number">
+      </div>
+
+      <div class="pad-top-double gutter">
+        <label for="card-name">Name on Card/Primary Card Holder</label>
+        <input id="card-name" required name="card-name">
+      </div>
+
+      <div class="pad-top-double gutter pad-bottom">
+        <label for="cvv">CVV (3 digits on the back of your card)</label>
+        <input id="cvv" required name="cvv">
+      </div>
+
+    </fieldset>
+
+
 <div>
 <button type="submit"> Create account</button>
 </div>
 <input type="hidden" name="_next" value="https://barb0181@algonquinlive.com/forms-demo/thanks.html"
+
 </form>
+</div>
 
 </body>
 </html>
