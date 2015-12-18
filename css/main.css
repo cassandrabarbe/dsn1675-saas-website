@@ -35,6 +35,16 @@ p{
  position: relative;
  margin: 0 auto;
  padding-bottom: 1em;
+ padding: 1em;
+}
+
+.padding{
+  padding-top: 4em;
+  padding-bottom: 3em;
+}
+
+.padding-2{
+  padding-bottom: 3em;
 }
 
 a.button:hover {
