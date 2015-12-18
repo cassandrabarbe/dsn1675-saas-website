@@ -140,7 +140,7 @@ h2{
 }
 
 .price-1{
-  background-color: #e5f7da;
+  background-color: white;
 }
 
 .price-2{
@@ -148,7 +148,7 @@ h2{
 }
 
 .price-3{
-  background-color: #a1b78f;
+  background-color: white;
 }
 
 p{
@@ -161,6 +161,7 @@ p{
 
 h4{
   text-align: center;
+  padding-top: 1em;
 }
 
 footer{
