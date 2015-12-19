@@ -184,15 +184,3 @@ h4{
 footer{
   background-color: #f3d5bd;
 }
-
-@media only screen and (min-width: 38em){
-  .size{
-    width: 75%;
-  }
-}
-
-@media only screen and (min-width: 60em){
-  .size{
-    width: 100%;
-  }
-}
