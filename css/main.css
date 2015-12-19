@@ -7,7 +7,6 @@ html{
 }
 
 .colour{
-  background-color: #f3d5bd;
   padding-bottom: 0.5em;
 }
 
@@ -47,6 +46,14 @@ p{
   padding-bottom: 3em;
 }
 
+.size{
+  width: 50%;
+}
+
+.social{
+  width: 40%;
+}
+
 a.button:hover {
  background: #c7e1ba;
  background: -webkit-linear-gradient(top, #c7e1ba, #adc69e);
@@ -79,7 +86,7 @@ a.button {
 }
 
 .banner-simple {
-  background: #cd853f url("http://placehold.it/1920x400/cd853f") no-repeat center center;
+  background:url("http://placehold.it/1920x400/cd853f") no-repeat center center;
   background-position: cover;
 }
 
@@ -116,6 +123,8 @@ ol{
 
 .footer {
   text-align: center;
+  background-color: #f3d5bd;
+
 }
 
 .reverse{
@@ -164,10 +173,26 @@ h4{
   padding-top: 1em;
 }
 
+.main-titles{
+  padding:1em;
+}
+
 .form{
   padding:1em;
 }
 
 footer{
   background-color: #f3d5bd;
+}
+
+@media only screen and (min-width: 38em){
+  .size{
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  .size{
+    width: 100%;
+  }
 }
